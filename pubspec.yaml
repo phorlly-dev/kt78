@@ -1,7 +1,7 @@
 name: kt78
 description: "A new Flutter project."
 publish_to: "none"
-version: 0.1.0
+version: 0.1.0+1
 
 environment:
   sdk: ^3.8.1
@@ -9,10 +9,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  
+  firebase_core:
+  cloud_firestore:
   onesignal_flutter: ^5.3.4
   webview_flutter: ^4.13.0
   flutter_launcher_icons: ^0.13.1
   get: ^4.7.2
+
 
 dev_dependencies:
   flutter_test:
